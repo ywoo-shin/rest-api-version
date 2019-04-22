@@ -34,7 +34,7 @@ public class AppConfig {
 }
 ```
 
-### Annotation
+### Controller Sample
 * `@ApiVersion`
 
 | 속성 | 설명 |
