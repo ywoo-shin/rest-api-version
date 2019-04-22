@@ -36,6 +36,7 @@ public class AppConfig {
 
 ### Annotation
 * `@ApiVersion`
+
 | 속성 | 설명 |
 | --- | --- |
 | prefix | Controller마다 prefix를 설정 (환경 설정파일의 prefix보다 우선순위를 갖음) |
