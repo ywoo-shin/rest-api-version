@@ -68,8 +68,8 @@ public class SampleController {
   // 4) 2.0, 3.0, 4.0 지원
   @ApiVersion(from = "2.0", to = "4.0")
   @GetMapping(value = "samples/{uuid}/test")
-  public ResponseBean selectOrg(@PathVariable String uuid) {
-    return service.selectSample(uuid);
+  public ResponseBean selectTest(@PathVariable String uuid) {
+    return service.selectTest(uuid);
   }
    
   // 5) 2.0만 지원
